@@ -64,7 +64,7 @@ img {
   text-decoration: none;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
@@ -128,7 +128,7 @@ img {
 }
 
 .site-nav a:hover,
-a:focus {
+.site-nav a:focus {
   color: var(--accent-color);
 }
 
@@ -276,8 +276,12 @@ a:focus {
 .advantages-card {
   --items: 4;
   min-width: 270px;
+
 }
 
+.card-set-icon {
+  border-radius: 4px;
+}
 advantages-card:nth-child(4n) {
   margin-right: 0;
 }
@@ -473,12 +477,12 @@ advantages-card:nth-child(4n) {
 .footer-social-header {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
   margin-bottom: 20px;
-  padding-top: 72px;
+
 }
 
 .icon-footer {
@@ -507,6 +511,7 @@ advantages-card:nth-child(4n) {
   cursor: pointer;
 
   border: none;
+  border-radius: 4px;
 
   display: block;
   padding: 6px 22px;
