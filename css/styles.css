@@ -6,6 +6,14 @@
 /* основной цвет фона #F5F5F5 */
 /* вторичный цвет фона #F5F4FA*/
 
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  box-sizing: inherit;
+} */
+
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
